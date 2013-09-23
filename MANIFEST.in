@@ -1,1 +1,3 @@
 include *.rst LICENSE *.txt
+include textblob_fr/*.txt
+include textblob_fr/*.xml

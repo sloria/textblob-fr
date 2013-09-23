@@ -15,6 +15,13 @@ Features
 * Sentiment analysis (``PatternAnalyzer``)
 * Supports Python 2 and 3
 
+Install
+-------
+
+If you have `pip <http://www.pip-installer.org/>`_ installed (you should), run ::
+
+    $ pip install textblob-fr
+
 Usage
 -----
 .. code-block:: python

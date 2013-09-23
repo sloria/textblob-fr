@@ -56,6 +56,9 @@ setup(
     packages=packages,
     package_dir={'textblob_fr': 'textblob_fr'},
     include_package_data=True,
+    package_data={
+        "textblob_fr": ["*.txt", "*.xml"]
+    },
     install_requires=requires,
     license=read("LICENSE"),
     zip_safe=False,
