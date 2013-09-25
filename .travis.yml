@@ -9,7 +9,6 @@ python:
   - "pypy"
 
 install:
-  - pip install -r requirements.txt
   - pip install -U .
 
 script: python run_tests.py

@@ -2,11 +2,15 @@
 textblob-fr
 ===========
 
+.. image:: https://badge.fury.io/py/textblob-fr.png
+    :target: http://badge.fury.io/py/textblob-fr
+    :alt: Latest version
+
 .. image:: https://travis-ci.org/sloria/textblob-fr.png?branch=master
     :target: https://travis-ci.org/sloria/textblob-fr
     :alt: Travis-CI
 
-Experimental French language support for `TextBlob`_.
+French language support for `TextBlob`_.
 
 Features
 --------
@@ -15,13 +19,13 @@ Features
 * Sentiment analysis (``PatternAnalyzer``)
 * Supports Python 2 and 3
 
-Install
--------
+Installing/Upgrading
+--------------------
 
 If you have `pip <http://www.pip-installer.org/>`_ installed (you should), run ::
 
-    $ pip install -U git+https://github.com/sloria/TextBlob.git@dev
-    $ pip install textblob-fr
+    $ pip install -U textblob
+    $ pip install -U textblob-fr
 
 Usage
 -----
