@@ -4,7 +4,7 @@ import re
 from setuptools import setup
 
 packages = ['textblob_fr']
-requires = ["textblob>=0.7.0"]
+requires = ["textblob>=0.8.0"]
 
 PUBLISH_CMD = "python setup.py register sdist bdist_wheel upload"
 TEST_PUBLISH_CMD = 'python setup.py register -r test sdist bdist_wheel upload -r test'

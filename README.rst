@@ -31,7 +31,7 @@ Usage
 -----
 .. code-block:: python
 
-    >>> from text.blob import TextBlob
+    >>> from textblob import TextBlob
     >>> from textblob_fr import PatternTagger, PatternAnalyzer
     >>> text = u"Quelle belle matinée"
     >>> blob = TextBlob(text, pos_tagger=PatternTagger(), analyzer=PatternAnalyzer())
@@ -44,7 +44,7 @@ Alternatively, you can use the ``Blobber`` class to avoid having to repeatedly p
 
 .. code-block:: python
 
-    >>> from text.blob import Blobber
+    >>> from textblob import Blobber
     >>> from textblob_fr import PatternTagger, PatternAnalyzer
     >>> tb = Blobber(pos_tagger=PatternTagger(), analyzer=PatternAnalyzer())
     >>> blob1 = tb(u"Quelle belle matinée")

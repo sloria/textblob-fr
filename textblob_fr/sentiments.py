@@ -2,7 +2,7 @@
 """French sentiment analysis implementations.
 """
 from __future__ import absolute_import
-from text.base import BaseSentimentAnalyzer, CONTINUOUS, DISCRETE
+from textblob.base import BaseSentimentAnalyzer, CONTINUOUS
 from textblob_fr.fr import sentiment as pattern_sentiment
 
 

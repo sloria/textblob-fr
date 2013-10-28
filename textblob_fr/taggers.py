@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 from __future__ import absolute_import
 
-from text.base import BaseTagger
+from textblob.base import BaseTagger
 from textblob_fr.fr import tag as pattern_tag
+
 
 class PatternTagger(BaseTagger):
 
