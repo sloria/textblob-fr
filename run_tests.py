@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-'''
+"""
 The main test runner script.
 
 Usage: ::
@@ -10,7 +10,7 @@ Usage: ::
 Skip slow tests: ::
 
     python run_tests.py fast
-'''
+"""
 from __future__ import unicode_literals
 import nose
 import sys
